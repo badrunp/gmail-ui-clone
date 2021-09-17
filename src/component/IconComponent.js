@@ -1,7 +1,10 @@
 function IconComponent(props){
     const Icon = props.icon;
+    const size = props.size || 'w-6 h-6';
+    const color = props.color || 'text-gray-600';
+    const className = props.className || '';
     return (
-        <Icon className="text-gray-600 w-6 h-6" />
+        <Icon className={color + ' ' + size + ' ' + className} />
     )
 }
 
