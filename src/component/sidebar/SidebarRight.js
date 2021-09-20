@@ -8,7 +8,7 @@ import SidebarListRight from './SidebarListRight';
 
 function SidebarRight() {
     return (
-        <div className="p-2 w-auto h-auto overflow-hidden">
+        <div className="p-2 w-12 h-auto overflow-hidden flex-none">
             <ul className="flex flex-col space-y-5 items-center justify-start">
                 <SidebarListRight image={imgcalender} type="image" />
                 <SidebarListRight image={imgkeep} type="image" />
