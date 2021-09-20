@@ -7,7 +7,7 @@ import MainButton from './MainButton';
 
 function MainTop() {
     return (
-        <React.Fragment>
+        <div className="flex flex-row items-center justify-between px-4 border-b border-gray-200 py-2">
             <div className="flex flex-row items-center space-x-2">
                 <div className="flex flex-row items-center">
                     <MainButton icon={RiCheckboxBlankLine} rounded="rounded" />
@@ -37,7 +37,7 @@ function MainTop() {
                     <MainButton icon={MdArrowDropDown} rounded="rounded" />
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     )
 }
 

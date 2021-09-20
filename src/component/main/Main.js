@@ -1,9 +1,11 @@
+import MainInbox from './MainInbox';
 import MainTop from './MainTop';
 
 function Main() {
     return (
-        <div className="flex flex-row items-center justify-between px-4 border-b border-gray-200 py-2">
-            <MainTop/>
+        <div className="flex-grow h-auto overflow-hidden border-r border-gray-200">
+            <MainTop />
+            <MainInbox />
         </div>
     )
 }

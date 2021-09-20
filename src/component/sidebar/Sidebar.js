@@ -36,7 +36,7 @@ function Sidebar() {
     }, [lists1, lists2])
 
     return (
-        <React.Fragment>
+        <div className="w-64 h-full overflow-hidden pr-4">
             <div className="py-4 flex flex-row w-full items-center justify-start px-2">
                 <button className="rounded-full shadow-md flex items-center space-x-3 px-6 py-3 ring-1 ring-gray-100 hover:shadow-lg hover:bg-gray-50">
                     <GrAdd className="w-7 h-7" />
@@ -97,7 +97,7 @@ function Sidebar() {
                 </li>
             </ul>
 
-        </React.Fragment>
+        </div>
     )
 }
 

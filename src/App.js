@@ -11,15 +11,9 @@ function App() {
       <Navbar />
       <div className="relative w-full h-max overflow-hidden">
         <div className="flex flex-row items-start justify-between">
-          <div className="w-64 h-full overflow-hidden">
-            <Sidebar />
-          </div>
-          <div className="flex-grow h-auto overflow-hidden border-r border-gray-200">
-            <Main/>
-          </div>
-          <div className="p-2 w-auto h-auto overflow-hidden">
-            <SidebarRight />
-          </div>
+          <Sidebar />
+          <Main />
+          <SidebarRight />
         </div>
       </div>
     </React.Fragment>
